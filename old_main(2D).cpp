@@ -58,35 +58,35 @@ void DrawGame(Camera2D& camera) {
 // 'argc' is the count of arguments
 // 'argv' is an array of strings containing the arguments
 
-int main() {
-    // Initialization
-    InitWindow(screenWidth, screenHeight, "Raylib RPG - Virus Survival");
-    SetTargetFPS(60);
-    // this is used to initialise and open a game window
-    // the dimensions of the game window and title are defined
-
-    // declaring and setting up camera
-    Camera2D camera = { 0 };
-    SetupCamera(camera);
-    
-    // sets the frame rate for the application to 60 frames per second
-
-// Main Game Loop: every game runs in what's called a "game loop", a continuous cycle that processes input, updates game state, and renders
-// graphics frame by frame - in raylib this loop is structured as follows:
-
-    while (!WindowShouldClose()) {
-        // Input handling: detect user interactions
-        // Game logic updates: adjust your game state based on inputs and other factors
-        // Rendering: draw your game state to the screen
-
-        // UpdateCamera(&camera); optionally update camera based on player movements
-
-        // Drawing on the Screen: 
-        DrawGame(camera);
-    }
-
-    CloseWindow();
-    return 0;
-}
+//int main() {
+//    // Initialization
+//    InitWindow(screenWidth, screenHeight, "Raylib RPG - Virus Survival");
+//    SetTargetFPS(60);
+//    // this is used to initialise and open a game window
+//    // the dimensions of the game window and title are defined
+//
+//    // declaring and setting up camera
+//    Camera2D camera = { 0 };
+//    SetupCamera(camera);
+//    
+//    // sets the frame rate for the application to 60 frames per second
+//
+//// Main Game Loop: every game runs in what's called a "game loop", a continuous cycle that processes input, updates game state, and renders
+//// graphics frame by frame - in raylib this loop is structured as follows:
+//
+//    while (!WindowShouldClose()) {
+//        // Input handling: detect user interactions
+//        // Game logic updates: adjust your game state based on inputs and other factors
+//        // Rendering: draw your game state to the screen
+//
+//        // UpdateCamera(&camera); optionally update camera based on player movements
+//
+//        // Drawing on the Screen: 
+//        DrawGame(camera);
+//    }
+//
+//    CloseWindow();
+//    return 0;
+//}
 
 
